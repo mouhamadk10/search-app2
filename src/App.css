@@ -1,0 +1,88 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color:#e8e6e6;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 65%;
+}
+
+.left-content h1{
+  margin-left: 15px;
+}
+
+.search-box{
+  border: #e8e6e6;
+}
+
+.search-box input {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.right-side {
+  width: 30%;
+  padding: 15px;
+}
+
+.info-box{
+  height: 120px;
+  border: 3px solid #cacaca;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+}
+
+.info-box span{
+  text-decoration: underline;
+}
+
+.info-box p {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.info-box a {
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.article h3 {
+  font-size: 20px;
+}
+
+.article .date {
+  font-size: 14px;
+  color: rgb(65, 65, 65);
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  color: #0159b0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
